@@ -45,20 +45,26 @@ h1{
 }
 
 .nav {
+    text-align: center;
     background: #ffffff;
     color: #777777;
     height: 30px;
-    width: 80px;
+    width: 10%;
     float: right;
     padding: 5px;
-    margin-top: 35px;
+    margin: 35px 0px 0px;
     border-color: transparent;
-    border-left: 1px solid #777777;
     box-sizing: border-box;
 }
 
-#leftMostButton{
-    border-left-color: transparent;
+#portfolio{
+    width: 15%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-left: 1px solid #777777;
+    border-right: 1px solid #777777;
 }
 
 .midContent{
@@ -112,6 +118,7 @@ h2{
 
 #myPic {
     float:left;
+    margin-right: 5px;
 }
 
 p {
@@ -268,29 +275,36 @@ form {
     }
 
     #portfolio {
-        left: 42.5%;
+        left: 40%;
     }
 
     #contact {
-        right: 30%;
+        left: 55%;
     }
 
     section {
-        width: 520px;
+        width: 90%;
     }
 
     .midWrapper {
-        width: 480px;
+        width: 100%;
         border-top: 1px solid #666666;
         padding-top: 15px;
+        margin: 0 auto;
     }
 
+    /* .stackingContainer {
+        position: relative;
+        left: 20%;
+    } */
+
     .formBlock {
-        width: 480px;
+        width: 100%;
+        margin-right: 0px;
     }
 
     textarea {
-        width: 480px;
+        width: 100%;
     }
 
     #myPic {
