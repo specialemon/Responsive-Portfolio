@@ -1,12 +1,12 @@
 /* general start */
 
-/*html, body {
+html, body {
     height: 100%;
-}*/
+}
 
 body{
-    /*display: flex;
-    flex-direction: column;*/
+    display: flex;
+    flex-direction: column;
     background-image: url("../images/white-waves.png");
     background-color: #ffffff;
     background-repeat: repeat;
@@ -68,6 +68,7 @@ h1{
     padding: 20px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    flex: 1 0 auto;
 }
 
 h2{
@@ -89,12 +90,9 @@ h2{
     padding-top: 15px;
 }
 
-/*.stickyF {
-    flex: 1 0 auto;
-}*/
 
 .bottom{
-    /*flex-shrink: 0;*/
+    flex-shrink: 0;
     text-align: center;
     color: #ffffff;
     height: 60px;
@@ -103,7 +101,7 @@ h2{
     clear: left;
     padding-top: 35px;
     border-top: 5px solid #4aaaa5;
-    position: absolute;
+    margin-top: 30px;
     bottom: 0px;
 }
 
@@ -216,6 +214,10 @@ form {
         padding-top: 15px;
     }
 
+    textarea {
+        width: 720px;
+    }
+
 }
 
 
@@ -229,6 +231,10 @@ form {
         width: 600px;
         border-top: 1px solid #666666;
         padding-top: 15px;
+    }
+
+    textarea {
+        width: 600px;
     }
 
 }
@@ -274,9 +280,17 @@ form {
     }
 
     .midWrapper {
-        width: 500px;
+        width: 480px;
         border-top: 1px solid #666666;
         padding-top: 15px;
+    }
+
+    .formBlock {
+        width: 480px;
+    }
+
+    textarea {
+        width: 480px;
     }
 
     #myPic {
