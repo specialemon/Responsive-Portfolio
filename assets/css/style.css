@@ -1,0 +1,286 @@
+/* general start */
+
+/*html, body {
+    height: 100%;
+}*/
+
+body{
+    /*display: flex;
+    flex-direction: column;*/
+    background-image: url("../images/white-waves.png");
+    background-color: #ffffff;
+    background-repeat: repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#topBackground{
+    background:#ffffff;
+}
+
+.top{
+    position: relative;
+    height: 100px;
+    background: transparent;
+}
+
+h1{
+    background: #4aaaa5;
+    position: absolute;
+    float: left;
+    padding-top: 35px;
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-align: center;
+}
+
+.nav {
+    background: #ffffff;
+    color: #777777;
+    height: 30px;
+    width: 80px;
+    float: right;
+    padding: 5px;
+    margin-top: 35px;
+    border-color: transparent;
+    border-left: 1px solid #777777;
+    box-sizing: border-box;
+}
+
+#leftMostButton{
+    border-left-color: transparent;
+}
+
+.midContent{
+    overflow:auto;
+    background: #ffffff;
+    margin-top: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    position: relative;
+    padding-top: 20px;
+    top: 0;
+    left: 0;
+    width: 150px;
+    color: #4aaaa5;
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+
+
+.midWrapper {
+    width: 900px;
+    border-top: 1px solid #666666;
+    padding-top: 15px;
+}
+
+/*.stickyF {
+    flex: 1 0 auto;
+}*/
+
+.bottom{
+    /*flex-shrink: 0;*/
+    text-align: center;
+    color: #ffffff;
+    height: 60px;
+    width: 100%;
+    background: #666666;
+    clear: left;
+    padding-top: 35px;
+    border-top: 5px solid #4aaaa5;
+    position: absolute;
+    bottom: 0px;
+}
+
+/* general end */
+
+/* index content begins */
+
+
+#myPic {
+    float:left;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 0;
+    line-height: 30px;
+}
+
+/* index content ends */
+
+/* portfolio content starts */
+
+.stackingContainer {
+    background: yellow;
+    height: 250px;
+    width: 250px;
+    margin: 20px 20px;
+    float: left;
+}
+
+.portDescrpt {
+    background: #4aaaa5;
+    width: 100%;
+    height: 45px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    margin-top: 150px;
+}
+
+#containerOne {
+    background-image: url("../images/hellothereoldchum.png");
+    background-size: 100% 100%; 
+}
+
+#containerTwo {
+    background-image: url("../images/surprisedpikachu.png");
+    background-size: 100% 100%; 
+}
+
+#containerThree {
+    background-image: url("../images/isthisa.jpg");
+    background-size: 100% 100%; 
+}
+
+#containerFour {
+    background-image: url("../images/polishjerry.jpg");
+    background-size: 100% 100%; 
+}
+
+#containerFive {
+    background-image: url("../images/overrustle.jpg");
+    background-size: 100% 100%; 
+}
+
+#containerSix {
+    background-image: url("../images/ayylmao.jpg");
+    background-size: 100% 100%; 
+}
+
+/* portfolio content ends */
+
+/* contact content begins */
+
+form {
+    text-align: left;
+    color:#777777;
+    clear:both;
+    
+}
+
+.formBlock {
+    margin-top: 5px;
+}
+
+.nameMail {
+    width: 100%;
+}
+
+#submitButton {
+    background: #4aaaa5;
+    color: #ffffff;
+    border: transparent;
+    height: 30px;
+    width: 60px;
+
+}
+
+/* contact content ends */
+
+
+@media screen and (max-width: 980px) {
+
+    section {
+        width: 760px;
+    }
+
+    .midWrapper {
+        width: 720px;
+        border-top: 1px solid #666666;
+        padding-top: 15px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    section {
+        width: 640px;
+    }
+
+    .midWrapper {
+        width: 600px;
+        border-top: 1px solid #666666;
+        padding-top: 15px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .top {
+        position: static;
+        height: 180px;
+        margin: 0px 0px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 40px;
+        float: none;
+        width: 100%;
+        margin: 0px 0px;
+    }
+
+    .nav {
+        float: none;
+        position: absolute;
+        top: 90px;
+        background: transparent;
+        border: none;
+    }
+
+    #leftMostButton {
+        left: 30%;
+    }
+
+    #portfolio {
+        left: 42.5%;
+    }
+
+    #contact {
+        right: 30%;
+    }
+
+    section {
+        width: 520px;
+    }
+
+    .midWrapper {
+        width: 500px;
+        border-top: 1px solid #666666;
+        padding-top: 15px;
+    }
+
+    #myPic {
+        float: none;
+    }
+
+}
